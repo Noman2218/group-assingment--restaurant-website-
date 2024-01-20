@@ -1,0 +1,698 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  color: #fff;
+  padding: 4em;
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(bg-hero.jpg);
+  background-position: center;
+  background-size: cover;
+
+  h2 a {
+    font-size: x-large;
+    text-decoration: none;
+    color: #FEA116;
+  }
+
+  h1 {
+    animation: fadeInDown;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+    margin-bottom: 1px;
+    margin-left: 89px;
+    font-size: 70px;
+  }
+
+  p {
+    margin-left: 89px;
+    line-height: 40px;
+  }
+
+
+}
+
+.animated-picture {
+  animation: fadeIn;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s;
+  /* don't forget to set a duration! */
+  margin: auto;
+  margin-bottom: -460px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: right;
+  top: -448px;
+  position: relative;
+
+}
+
+
+h2 a :hover {
+  color: #000000;
+}
+
+nav {
+  background-color: #0F172B !important;
+  padding: 0.5em;
+  text-align: right;
+}
+
+.booking-table {
+  background-color: #FEA116;
+  text-align: center;
+  margin-right: 1em;
+  padding: 1em;
+  color: white;
+}
+
+.booking-table-2 {
+  background-color: #FEA116;
+  text-align: center;
+  margin-top: 24px;
+  margin-left: 89px;
+  padding: 1em;
+  color: white;
+  font-size: large;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  position: relative;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FEA116;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: left;
+  width: 150px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.card {
+  margin: 10px;
+  position: relative;
+  top: 50px;
+  right: -143px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+
+.card:hover {
+  color: #FEA116;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card-table {
+  animation: fadeInUp;
+  display: flex;
+}
+
+footer {
+  background-color: #0F172B;
+  color: #fff;
+  padding: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer h2 {
+  color: #FEA116;
+  margin: 20px;
+}
+
+.nav-shortcuts {
+  line-height: 28px;
+  margin: 28px;
+}
+
+.nav-shortcuts-2 {
+  line-height: 28px;
+  margin: 28px;
+  top: -25px;
+  position: relative;
+}
+
+.nav-shortcuts-3 {
+  line-height: 28px;
+  margin: 28px;
+  top: -12px;
+  position: relative;
+}
+
+.nav-shortcuts-4 {
+  line-height: 28px;
+  margin: 28px;
+  top: -37px;
+  position: relative;
+}
+
+.nav-shortcuts-5 {
+  line-height: 28px;
+  margin: 63px;
+  top: -35px;
+  display: flex;
+  position: relative;
+}
+
+.nav-shortcuts-5-div-2 {
+  display: flex;
+  margin: 5px;
+  right: -500px;
+  position: relative;
+  text-decoration: none;
+}
+
+.nav-shortcuts-5-div-1 {
+  margin: 5px;
+  position: relative;
+  text-decoration: none;
+}
+
+footer>table {
+  margin: 40px;
+  ;
+}
+
+
+
+
+
+
+.section {
+  max-width: 1000px;
+  margin: 2em auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+}
+
+
+
+.h5 {
+  text-align: center;
+  font-size: 30px;
+  ;
+  color: #FEA116;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  ;
+}
+
+/* styles.css */
+ul {
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+ 
+  justify-content: center;
+}
+
+.menu-items-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 17px;
+  text-decoration: none;
+}
+
+.menu-items-navbar-button {
+  display: flex;
+  border: none;
+  background: none;
+  text-align: left;
+  margin-bottom: 10px;
+ 
+  cursor: pointer;
+
+
+  
+}
+
+.menu-items-navbar a {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 5px;
+}
+
+.menu-items-navbar a div {
+  margin-right: 10px;
+}
+
+.menu-items-navbar small {
+  font-size: 12px;
+  margin: 12px;
+}
+
+.menu-items-navbar h6 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 9px;
+  margin-left: 12px;
+}
+
+
+.menu-item {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+
+}
+
+.menu-item-text {
+
+  a {
+    display: flex;
+    margin-left: 75px;
+    align-items: center;
+    text-align: left;
+  }
+
+  a div {
+    margin-right: 10px;
+  }
+
+  .menu-item-text {
+    text-align: left;
+  }
+
+  .menu-item-text .price {
+    font-size: 18px;
+    font-weight: 790;
+    padding: 50px;
+    ;
+    color: #FEA116;
+  }
+
+  .menu-item-text h6 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: inline;
+    /* Display h6 inline */
+  }
+
+  .menu-item-text hr {
+    margin: 5px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+
+  .menu-item-text small {
+    font-size: 12px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.table {
+  display: flex;
+}
+
+/* book a tble form */
+
+.form-container {
+  position: relative;
+  right: -757px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  background-color: #FEA116;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #8f5600;
+}
+
+.card-2 {
+  margin: 10px;
+  position: relative;
+  top: 50px;
+  right: -143px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 23%;
+}
+
+.card-2:hover {
+  color: #FEA116;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.card-2-table {
+  position: relative;
+  right: 122px;
+  animation: fadeInUp;
+  display: flex;
+}
+
+/* .testimonial-card */
+.Testimonials {
+  display: flex;
+}
+.container-2{
+  padding: 15px;
+}
+
+
+.container-2-div {
+  display: flex;
+  border: none;
+  background: none;
+  text-align: left;
+  margin-bottom: 10px;
+  /* Adjust the margin between items */
+  cursor: pointer;
+}
+
+.container-2-div>div>h6 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+.container-2-div>div>small {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.testimonial-card {
+  margin: 50px;
+  position: relative;
+  top: 80px;
+  right: -14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+
+.testimonial-card-2 {
+  margin: 50px;
+  position: relative;
+  top: 80px;
+  right: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+
+.testimonial-card-3 {
+  margin: 50px;
+  position: relative;
+  top: 80px;
+  right: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+
+.testimonial-card-4 {
+  margin: 50px;
+  position: relative;
+  top: 80px;
+  right: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+}
+
+
+/* Smaller screens (tablets and mobile devices) */
+@media screen and (max-width: 430px) {
+  header {
+    height: 900px;
+    padding: 3em;
+  }
+
+  header> h1 {
+    margin-left: 21px;
+    font-size: 36px;
+  }
+  header > p {
+    margin-left: 22px;
+  }
+
+  nav {
+    padding: 1em;
+    text-align: center;
+  }
+
+  nav a {
+    padding: 0em;
+    line-height: 30px;
+  }
+
+  .dropdown-content {
+    width: 100%;
+  }
+
+  .menu-items-navbar {
+    margin: 10px;
+  }
+
+  .menu-item-text {
+    a {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0;
+    }
+
+    .price {
+      padding: 0;
+    }
+  }
+  .animated-picture > img {
+    width: 380px;
+  }
+  .animated-picture {
+    flex-direction: column;
+    align-items: center;
+    animation: fadeIn;
+    animation-duration: 5s;
+    margin: auto;
+    margin-bottom: -460px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: right;
+    top: 32px;
+    position: relative;}
+
+    .booking-table-2 {
+      background-color: #FEA116;
+      text-align: center;
+      margin-top: 0px;
+      margin-left: 89px;
+      padding: 1em;
+      color: white;
+      font-size: large;}
+
+  footer {
+    padding: 1em;
+  }
+
+  footer a {
+    margin: 0 5px;
+  }
+
+  footer {
+    max-width: 430px;
+    padding: 6em;
+  }
+
+  footer>table {
+    display: none;
+    margin: 0 auto;
+  }
+
+  footer>table>tr>td {
+    display: table-row;
+    margin: 10px 0;/
+  }
+
+  .nav-shortcuts-5-div-2 {
+    right: -9px;
+    margin: 5px;
+    display: flex;
+    text-align: center;
+  }
+
+  .nav-shortcuts {
+    display: none;
+    margin: 1em;
+  }
+
+  .nav-shortcuts-5 {
+    right: 77px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    flex-direction: column;
+  }
+
+  .nav-shortcuts-5-div-1 {
+    top: 50px;
+    margin: 5px;
+    position: relative;
+    text-decoration: none;
+  }
+
+  .form-container {
+    right: -14px;
+  }
+
+  .Testimonials {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .testimonial-card {
+    margin: 50px;
+    position: relative;
+    top: 80px;
+    right: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 78%;
+  }
+
+  .testimonial-card-2 {
+    margin: 50px;
+    position: relative;
+    top: 80px;
+    right: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 78%;
+  }
+
+  .testimonial-card-3 {
+    margin: 50px;
+    position: relative;
+    top: 80px;
+    right: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 78%;
+  }
+
+  .testimonial-card-4 {
+    margin: 50px;
+    position: relative;
+    top: 80px;
+    right: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 78%;
+  }
+.card{
+  width: 65%;
+}
+  .card-table {
+    position: relative;
+    right: 130px;
+    width: 117%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-2-table {
+    text-align: center;
+    margin: -26px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 115%;
+    flex-direction: row;
+  }
+}
+
+
